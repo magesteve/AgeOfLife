@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410EBD16274F27EF00869D24 /* Age_Of_LifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410EBD15274F27EF00869D24 /* Age_Of_LifeApp.swift */; };
+		410EBD18274F27EF00869D24 /* Age_Of_LifeDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410EBD17274F27EF00869D24 /* Age_Of_LifeDocument.swift */; };
+		410EBD1A274F27EF00869D24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410EBD19274F27EF00869D24 /* ContentView.swift */; };
+		410EBD1C274F27F100869D24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410EBD1B274F27F100869D24 /* Assets.xcassets */; };
+		410EBD1F274F27F100869D24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410EBD1E274F27F100869D24 /* Preview Assets.xcassets */; };
+		410EBD2B274F27F100869D24 /* Age_Of_LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410EBD2A274F27F100869D24 /* Age_Of_LifeTests.swift */; };
+		410EBD35274F27F100869D24 /* Age_Of_LifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410EBD34274F27F100869D24 /* Age_Of_LifeUITests.swift */; };
+		410EBD37274F27F100869D24 /* Age_Of_LifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410EBD36274F27F100869D24 /* Age_Of_LifeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		410EBD27274F27F100869D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410EBD0A274F27EF00869D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410EBD11274F27EF00869D24;
+			remoteInfo = "Age Of Life";
+		};
+		410EBD31274F27F100869D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410EBD0A274F27EF00869D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410EBD11274F27EF00869D24;
+			remoteInfo = "Age Of Life";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		410EBD12274F27EF00869D24 /* Age Of Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Age Of Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410EBD15274F27EF00869D24 /* Age_Of_LifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_Of_LifeApp.swift; sourceTree = "<group>"; };
+		410EBD17274F27EF00869D24 /* Age_Of_LifeDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_Of_LifeDocument.swift; sourceTree = "<group>"; };
+		410EBD19274F27EF00869D24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		410EBD1B274F27F100869D24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		410EBD1E274F27F100869D24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		410EBD20274F27F100869D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410EBD21274F27F100869D24 /* Age_Of_Life.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Age_Of_Life.entitlements; sourceTree = "<group>"; };
+		410EBD26274F27F100869D24 /* Age Of LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age Of LifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410EBD2A274F27F100869D24 /* Age_Of_LifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_Of_LifeTests.swift; sourceTree = "<group>"; };
+		410EBD30274F27F100869D24 /* Age Of LifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age Of LifeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410EBD34274F27F100869D24 /* Age_Of_LifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_Of_LifeUITests.swift; sourceTree = "<group>"; };
+		410EBD36274F27F100869D24 /* Age_Of_LifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_Of_LifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410EBD0F274F27EF00869D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410EBD23274F27F100869D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410EBD2D274F27F100869D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410EBD09274F27EF00869D24 = {
+			isa = PBXGroup;
+			children = (
+				410EBD14274F27EF00869D24 /* Age Of Life */,
+				410EBD29274F27F100869D24 /* Age Of LifeTests */,
+				410EBD33274F27F100869D24 /* Age Of LifeUITests */,
+				410EBD13274F27EF00869D24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		410EBD13274F27EF00869D24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				410EBD12274F27EF00869D24 /* Age Of Life.app */,
+				410EBD26274F27F100869D24 /* Age Of LifeTests.xctest */,
+				410EBD30274F27F100869D24 /* Age Of LifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		410EBD14274F27EF00869D24 /* Age Of Life */ = {
+			isa = PBXGroup;
+			children = (
+				410EBD15274F27EF00869D24 /* Age_Of_LifeApp.swift */,
+				410EBD17274F27EF00869D24 /* Age_Of_LifeDocument.swift */,
+				410EBD19274F27EF00869D24 /* ContentView.swift */,
+				410EBD1B274F27F100869D24 /* Assets.xcassets */,
+				410EBD20274F27F100869D24 /* Info.plist */,
+				410EBD21274F27F100869D24 /* Age_Of_Life.entitlements */,
+				410EBD1D274F27F100869D24 /* Preview Content */,
+			);
+			path = "Age Of Life";
+			sourceTree = "<group>";
+		};
+		410EBD1D274F27F100869D24 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				410EBD1E274F27F100869D24 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		410EBD29274F27F100869D24 /* Age Of LifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				410EBD2A274F27F100869D24 /* Age_Of_LifeTests.swift */,
+			);
+			path = "Age Of LifeTests";
+			sourceTree = "<group>";
+		};
+		410EBD33274F27F100869D24 /* Age Of LifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				410EBD34274F27F100869D24 /* Age_Of_LifeUITests.swift */,
+				410EBD36274F27F100869D24 /* Age_Of_LifeUITestsLaunchTests.swift */,
+			);
+			path = "Age Of LifeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		410EBD11274F27EF00869D24 /* Age Of Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410EBD3A274F27F100869D24 /* Build configuration list for PBXNativeTarget "Age Of Life" */;
+			buildPhases = (
+				410EBD0E274F27EF00869D24 /* Sources */,
+				410EBD0F274F27EF00869D24 /* Frameworks */,
+				410EBD10274F27EF00869D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Age Of Life";
+			productName = "Age Of Life";
+			productReference = 410EBD12274F27EF00869D24 /* Age Of Life.app */;
+			productType = "com.apple.product-type.application";
+		};
+		410EBD25274F27F100869D24 /* Age Of LifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410EBD3D274F27F100869D24 /* Build configuration list for PBXNativeTarget "Age Of LifeTests" */;
+			buildPhases = (
+				410EBD22274F27F100869D24 /* Sources */,
+				410EBD23274F27F100869D24 /* Frameworks */,
+				410EBD24274F27F100869D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410EBD28274F27F100869D24 /* PBXTargetDependency */,
+			);
+			name = "Age Of LifeTests";
+			productName = "Age Of LifeTests";
+			productReference = 410EBD26274F27F100869D24 /* Age Of LifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		410EBD2F274F27F100869D24 /* Age Of LifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410EBD40274F27F100869D24 /* Build configuration list for PBXNativeTarget "Age Of LifeUITests" */;
+			buildPhases = (
+				410EBD2C274F27F100869D24 /* Sources */,
+				410EBD2D274F27F100869D24 /* Frameworks */,
+				410EBD2E274F27F100869D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410EBD32274F27F100869D24 /* PBXTargetDependency */,
+			);
+			name = "Age Of LifeUITests";
+			productName = "Age Of LifeUITests";
+			productReference = 410EBD30274F27F100869D24 /* Age Of LifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		410EBD0A274F27EF00869D24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					410EBD11274F27EF00869D24 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					410EBD25274F27F100869D24 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 410EBD11274F27EF00869D24;
+					};
+					410EBD2F274F27F100869D24 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 410EBD11274F27EF00869D24;
+					};
+				};
+			};
+			buildConfigurationList = 410EBD0D274F27EF00869D24 /* Build configuration list for PBXProject "Age Of Life" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 410EBD09274F27EF00869D24;
+			productRefGroup = 410EBD13274F27EF00869D24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410EBD11274F27EF00869D24 /* Age Of Life */,
+				410EBD25274F27F100869D24 /* Age Of LifeTests */,
+				410EBD2F274F27F100869D24 /* Age Of LifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		410EBD10274F27EF00869D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410EBD1F274F27F100869D24 /* Preview Assets.xcassets in Resources */,
+				410EBD1C274F27F100869D24 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410EBD24274F27F100869D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410EBD2E274F27F100869D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		410EBD0E274F27EF00869D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410EBD16274F27EF00869D24 /* Age_Of_LifeApp.swift in Sources */,
+				410EBD18274F27EF00869D24 /* Age_Of_LifeDocument.swift in Sources */,
+				410EBD1A274F27EF00869D24 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410EBD22274F27F100869D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410EBD2B274F27F100869D24 /* Age_Of_LifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410EBD2C274F27F100869D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410EBD35274F27F100869D24 /* Age_Of_LifeUITests.swift in Sources */,
+				410EBD37274F27F100869D24 /* Age_Of_LifeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		410EBD28274F27F100869D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410EBD11274F27EF00869D24 /* Age Of Life */;
+			targetProxy = 410EBD27274F27F100869D24 /* PBXContainerItemProxy */;
+		};
+		410EBD32274F27F100869D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410EBD11274F27EF00869D24 /* Age Of Life */;
+			targetProxy = 410EBD31274F27F100869D24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		410EBD38274F27F100869D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		410EBD39274F27F100869D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		410EBD3B274F27F100869D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Age Of Life/Age_Of_Life.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Age Of Life/Preview Content\"";
+				DEVELOPMENT_TEAM = 44Q9LHQ5T3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Age Of Life/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magesteve.Age-Of-Life";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		410EBD3C274F27F100869D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Age Of Life/Age_Of_Life.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Age Of Life/Preview Content\"";
+				DEVELOPMENT_TEAM = 44Q9LHQ5T3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Age Of Life/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magesteve.Age-Of-Life";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		410EBD3E274F27F100869D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44Q9LHQ5T3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magesteve.Age-Of-LifeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Age Of Life.app/Contents/MacOS/Age Of Life";
+			};
+			name = Debug;
+		};
+		410EBD3F274F27F100869D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44Q9LHQ5T3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magesteve.Age-Of-LifeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Age Of Life.app/Contents/MacOS/Age Of Life";
+			};
+			name = Release;
+		};
+		410EBD41274F27F100869D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44Q9LHQ5T3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magesteve.Age-Of-LifeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Age Of Life";
+			};
+			name = Debug;
+		};
+		410EBD42274F27F100869D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44Q9LHQ5T3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magesteve.Age-Of-LifeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Age Of Life";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		410EBD0D274F27EF00869D24 /* Build configuration list for PBXProject "Age Of Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410EBD38274F27F100869D24 /* Debug */,
+				410EBD39274F27F100869D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410EBD3A274F27F100869D24 /* Build configuration list for PBXNativeTarget "Age Of Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410EBD3B274F27F100869D24 /* Debug */,
+				410EBD3C274F27F100869D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410EBD3D274F27F100869D24 /* Build configuration list for PBXNativeTarget "Age Of LifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410EBD3E274F27F100869D24 /* Debug */,
+				410EBD3F274F27F100869D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410EBD40274F27F100869D24 /* Build configuration list for PBXNativeTarget "Age Of LifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410EBD41274F27F100869D24 /* Debug */,
+				410EBD42274F27F100869D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 410EBD0A274F27EF00869D24 /* Project object */;
+}
